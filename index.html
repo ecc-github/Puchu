@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.41.5"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentiens day!</title>
+        <!-- add icon link -->
+        <link rel="icon" href=
+        "https://freepngimg.com/thumb/heart/36776-7-yellow-heart-clipart.png"
+                  type="image/x-icon">
+         
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="tsparticles"></div>
+    <img id="valentineGif" src="https://media.tenor.com/0tkCPVxDt1kAAAAi/dudu.gif" alt="Valentine's Day GIF" class="valentine-gif">
+    <!-- New Image for change on click -->
+    <img id="newValentineGif" src="https://media.tenor.com/T6wX6KhgJOUAAAAi/peach-and-goma-surprise.gif" alt="Valentine's Day Surprise GIF" class="valentine-gif" style="display: none;">
+    
+    <audio id="yesAudio" src="yay.mp3" style="display: none;"></audio>
+    
+    <main>
+      
+
+        <div class="card-container">
+            <div class="card">
+                <div class="card-content">
+                    <p>Will you be my valentine?</p>
+                    <div class="button-container">
+                        <button id="yesButton">Yes 😍</button>
+                        <button id="noButton">No  🥺</button>
+                    </div>
+                    <p id="specialMessage" style="display: none;">You are loved, today and every day!</p>
+                </div>
+            </div>
+        </div>
+    
+    </main>
+</div>
+    <script src="javascript.js"></script>
+</body>
+</html>
